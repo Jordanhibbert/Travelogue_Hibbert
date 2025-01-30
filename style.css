@@ -11,7 +11,7 @@ main {
     padding: 3ch;
     overflow: hidden;
 }
-
+/* Embeded font directions from google fonts */
 .delius-swash-caps-regular {
     font-family: "Delius Swash Caps", serif;
     font-weight: 400;

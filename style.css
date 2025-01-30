@@ -3,6 +3,7 @@ body{
     margin: 0;
     background-color: antiquewhite;
 }
+
 main {
     background-color: aliceblue;
     border: 1px solid gray;
@@ -14,6 +15,17 @@ main {
 
 html {
     scroll-behavior: smooth;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 2rem;
+}
+
+.row {
+    display: table;
+    clear: both;
 }
 
 h1 {
@@ -44,9 +56,11 @@ figcaption {
     width: 60%;
 }
 @media all and (max-width: 700px) {
-    body {
-        background-color: red;
+/* column breakpoint added to image float breakpoints */
+    .column {
+        width: 100%;
     }
+    
     .img-container-left {
 
         margin: auto;

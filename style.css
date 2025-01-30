@@ -11,6 +11,11 @@ main {
     padding: 3ch;
     overflow: hidden;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
     margin-bottom: 2rem;
 }

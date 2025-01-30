@@ -42,6 +42,7 @@ a {
 }
 
 .navbar a {
+    padding-top: 1rem;
     float: left;
     width: 25%;
     text-align: center;
@@ -51,15 +52,12 @@ html {
     scroll-behavior: smooth;
 }
 
-.column {
-    float: left;
-    width: 50%;
-    padding: 2rem;
+.grid {
+    display: flex;
 }
 
-.row {
-    display: table;
-    clear: both;
+.col {
+    flex: 1;
 }
 
 h1 {
@@ -92,8 +90,8 @@ figcaption {
 }
 @media all and (max-width: 1000px) {
 /* column breakpoint added to image float breakpoints */
-    .column {
-        width: 100%;
+    .grid {
+        display: block;
     }
     
     .img-container-left {

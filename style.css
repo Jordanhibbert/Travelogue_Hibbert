@@ -7,10 +7,25 @@ body{
 main {
     background-color: aliceblue;
     border: 1px solid gray;
-    max-width: 100ch;
     margin: 1rem;
     padding: 3ch;
     overflow: hidden;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+    width: 100%;
+    background-color:antiquewhite;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    width: 25%;
+    text-align: center;
 }
 
 html {
@@ -38,6 +53,7 @@ p {
 
 img {
     width: 100%;
+    max-width: 400px;
     height: auto;
 }
 figcaption {
@@ -55,7 +71,7 @@ figcaption {
     margin-right: 2ch;
     width: 60%;
 }
-@media all and (max-width: 700px) {
+@media all and (max-width: 1000px) {
 /* column breakpoint added to image float breakpoints */
     .column {
         width: 100%;

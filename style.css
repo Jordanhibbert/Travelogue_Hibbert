@@ -79,17 +79,19 @@ figcaption {
     
     .img-container-left {
 
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
         display: block;
         float: none;
-        width: 100%;
+        width: 75%;
         margin-bottom: 2ch;
     }
     .img-container-right {
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
         display: block;
         float: none;
-        width: 100%;
+        width: 75%;
         margin-bottom: 2ch;
     }
 }
